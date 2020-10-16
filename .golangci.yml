@@ -1,0 +1,8 @@
+run:
+  timeout: 5m
+  skip-dirs:
+  - vendor
+  skip-files:
+  - ".*\\.pb\\.go$"
+  - ".*\\.twirp\\.go$"
+
